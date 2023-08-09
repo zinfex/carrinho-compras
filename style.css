@@ -1,0 +1,67 @@
+body {
+    background-color: blueviolet;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 100%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.343) 1px 1px 1px 2px;
+    width: 60%;
+    padding: 30px;
+
+    text-align: center;
+}
+
+#carrinho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#carrinho .card{
+    margin-inline: 50px;
+    transform: scale(0.8);
+}
+
+.card#hamburguer img {
+    width: 100%;
+}
+.card#pizza img {
+    width: 100%;
+}
+
+.card-text {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:25px;
+}
+
+span {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contador .btn {
+    font-size: 30px;
+}
+
+.add {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+li {
+    list-style: none;
+}
+
+@media(max-width: 750px) {
+    #carrinho {
+        flex-direction: column;
+    }
+}
